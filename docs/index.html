@@ -1,0 +1,1151 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Trajan Pro";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListBullet, li.MsoListBullet, div.MsoListBullet
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.25in;
+	text-indent:-.25in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListBulletCxSpFirst, li.MsoListBulletCxSpFirst, div.MsoListBulletCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.25in;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListBulletCxSpMiddle, li.MsoListBulletCxSpMiddle, div.MsoListBulletCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.25in;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListBulletCxSpLast, li.MsoListBulletCxSpLast, div.MsoListBulletCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.25in;
+	text-indent:-.25in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:0in;margin-left:1.5in;margin-bottom:.0001pt;text-align:center'><span
+style='font-size:18.0pt;line-height:107%;font-family:"Trajan Pro","serif"'>Image
+Processing in C++</span></p>
+
+<p class=MsoNormal align=right style='margin-top:0in;margin-right:1.5in;
+margin-bottom:0in;margin-left:1.5in;margin-bottom:.0001pt;text-align:right'><span
+style='font-size:14.0pt;line-height:107%;font-family:"Segoe UI","sans-serif"'>-Devendra
+Pratap Yadav </span></p>
+
+<p class=MsoNormal align=right style='margin-top:0in;margin-right:1.5in;
+margin-bottom:0in;margin-left:1.5in;margin-bottom:.0001pt;text-align:right'><span
+style='font-family:"Segoe UI","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:8.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:8.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>The
+following image enhancements can be done using the program.</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>1. Rotate</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>2. Translate</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>3. Scale</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>4. Skew</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>5. Negative</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>6. Log
+Transformation</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>7. Inverse
+Log Transformation</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>8. Gamma
+Transformation</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>9. Contrast Stretching</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>10. Gray
+Level Slicing</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>11. Bit
+Plane Slicing</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>12.
+Histogram Equalization</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>13. Adaptive
+Histogram Equalization</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>14.
+Histogram Matching</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>15. Mean
+Filtering</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>16. Weighted
+Mean Filtering</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>17. Median
+Filtering</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>18. Sobel
+Filtering</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>19.
+Laplacian Filtering</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>20.
+HighBoost Filtering</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>21. Unsharp
+Masking</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:8.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:8.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>Whenever
+available, we compare our result to OpenCV’s inbuilt function.<br>
+The program provides a menu type input to perform various functions on the
+image.<br>
+<br>
+<br>
+</span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>1. Rotate</span></i></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>We rotate
+the image using the affine transformation matrix. </span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><span
+style='font-size:12.0pt;line-height:107%'><img width=233 height=121
+id="Picture 3" src="index_files/image001.png"></span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><span
+style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>Rotate by 30
+degrees:</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:4.0in;text-indent:.5in'><span style='font-size:12.0pt;line-height:
+107%'>My Algorithm  (Bilinear Interpolation)                                                                        OpenCV</span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center;text-indent:.5in'><span
+style='font-size:12.0pt;line-height:107%'><img width=419 height=419
+id="Picture 4" src="index_files/image002.jpg"></span><span style='font-size:
+12.0pt;line-height:107%'>                         <img width=421 height=421
+id="Picture 5" src="index_files/image003.jpg"></span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><span
+style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:14.0pt;line-height:107%'>RMSE= 2.32</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>To rotate
+the image, we must use the inverse affine transform to avoid empty points in
+new image which don’t have any point of original mapping to them. </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>Bilinear
+interpolation reduces jagginess and provides smooth image.</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>We conclude
+that bilinear interpolation is better for rotation as it provides smooth image.</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>2. Translate</span></i></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>We can
+translate using the affine matrix as well.</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>Using same
+original image as rotation, Translate by x=100, y=-50                              <br>
+Result:</span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><span
+style='font-size:12.0pt;line-height:107%'><img width=481 height=481
+id="Picture 7" src="index_files/image004.jpg"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>The image
+goes out of the boundary and some data is lost while translating it.</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>3. Scale</span></i></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>Scaling can
+be done with affine transformation matrix as well. <br>
+We can use both nearest neighbor and bilinear interpolation.</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>Scale to 2x
+in both x and y</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>OpenCV                                                                           
+Mine (bilinear)</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='position:absolute;z-index:251660277;left:0px;
+margin-left:560px;margin-top:840px;width:281px;height:281px'><img width=281
+height=281 src="index_files/image005.png"></span><span style='font-size:12.0pt;
+line-height:107%'><img width=284 height=284 id="Picture 9"
+src="index_files/image006.png"></span><span style='font-size:12.0pt;line-height:
+107%'><br>
+<br>
+</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>Nearest
+Neighbor                                                                   Original</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='position:absolute;z-index:251661301;left:0px;
+margin-left:612px;margin-top:916px;width:171px;height:171px'><img width=171
+height=171 src="index_files/image007.jpg"></span><span style='font-size:12.0pt;
+line-height:107%'><img width=343 height=343 id="Picture 11"
+src="index_files/image008.jpg"></span><span style='font-size:12.0pt;line-height:
+107%'>                        </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'><br>
+We observe that bilinear provides smoother scaling.</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>4. Skew</span></i></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>Skewing/ Shearing
+can be achieved with affine matrix as well.<br>
+Output of Skew X=0.3 , Y = 0.1 using bilinear interpolation.</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='position:absolute;z-index:251663349;left:0px;
+margin-left:1088px;margin-top:1060px;width:453px;height:384px'><img width=453
+height=384 src="index_files/image009.jpg"></span><span style='position:absolute;
+z-index:251662325;left:0px;margin-left:392px;margin-top:1065px;width:452px;
+height:383px'><img width=452 height=383 src="index_files/image010.jpg"></span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:16.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:4.5in;text-indent:.5in'><span style='font-size:12.0pt;line-height:
+107%'>Bilinear                                                                                    Nearest
+Neighbor</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.0in;text-indent:.5in'><span style='font-size:12.0pt;line-height:
+107%'>The bilinear image has less jagged edges and provides smoother result. </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><i><span style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><i><span style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><i><span style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>5. Negative</span></i></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>Negative
+filter changes the pixel intensity as : f(x,y)= 255- f(x,y)<br>
+Result can be seen below: </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='position:absolute;z-index:251665397;left:0px;
+margin-left:965px;margin-top:1285px;width:315px;height:315px'><img width=315
+height=315 src="index_files/image011.jpg"></span><span style='position:absolute;
+z-index:251664373;left:0px;margin-left:508px;margin-top:1282px;width:323px;
+height:323px'><img width=323 height=323 src="index_files/image012.jpg"></span><span
+style='font-size:12.0pt;line-height:107%'>                                                                                                ORIGINAL                                                                                NEGATIVE</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>This can
+highlight interesting properties in the image.</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>6. Log Transformation</span></i></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>Logarithm
+transformation is : f(x,y) = c* log(1+f(x,y))<br>
+where, c= 255/log(256) to scale the values between 0 and 255.</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>Result can
+be seen below: </span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><span
+style='font-size:12.0pt;line-height:107%'>ORIGINAL                                                                    TRANSFORMED</span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><span
+style='font-size:12.0pt;line-height:107%'><img width=330 height=432
+id="Picture 22" src="index_files/image013.jpg"></span><span style='font-size:
+12.0pt;line-height:107%'>                <img width=330 height=432
+id="Picture 21" src="index_files/image014.jpg"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>We observe
+that log transform significantly brightens the image and reveals darker
+details.</span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>7. Inverse Log Transformation</span></i></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>It is the
+inverse function of the log transform function stated previously. We calculate
+the mapping for all gray values and then inverse the function. </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>Result can
+be seen below: </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='position:absolute;z-index:251666421;left:0px;
+margin-left:1008px;margin-top:1681px;width:331px;height:332px'><img width=331
+height=332 src="index_files/image015.jpg"></span><span style='font-size:12.0pt;
+line-height:107%'>                                                                                    ORIGINAL                                                                                TRANSFORMED</span></p>
+
+<p class=MsoListBulletCxSpFirst style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:3.0in;text-indent:.5in'><span style='font-size:
+12.0pt;line-height:107%'><img width=331 height=333 id="Picture 24"
+src="index_files/image016.jpg"></span></p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'><span style='font-size:
+12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'><span style='font-size:
+12.0pt;line-height:107%'>This removes the washed out, low contrast look of the
+image and darkens it.</span></p>
+
+<p class=MsoListBulletCxSpLast style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'><span style='font-size:
+12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>8. Gamma Transformation</span></i></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>Logarithm
+transformation is : f(x,y) = c* f(x,y)^gamma, where, c= 1 and gamma varies.<br>
+here, f(x,y) is value between 0 and 1</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>Result can
+be seen below: </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>                                                                                                ORIGINAL                                                                                TRANSFORMED</span></p>
+
+<p class=MsoListBulletCxSpFirst style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'><span style='position:
+absolute;z-index:251667445;left:0px;margin-left:1016px;margin-top:1848px;
+width:328px;height:330px'><img width=328 height=330
+src="index_files/image017.jpg"></span></p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:3.5in;text-indent:.5in'><span style='font-size:
+12.0pt;line-height:107%'><img width=331 height=333 id="Picture 26"
+src="index_files/image018.jpg"></span></p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>For gamma=5, we get the
+above result. We can see that the image is significantly darkened. <br>
+For gamma&lt;1, the image is brightened.</p>
+
+<p class=MsoListBulletCxSpLast style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>9. Contrast Stretching</span></i></p>
+
+<p class=MsoListBullet style='margin-top:0in;margin-right:1.5in;margin-bottom:
+8.0pt;margin-left:1.5in'>We map the gray levels using a stretching function
+which takes two input points and generates the mapping as shown: </p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><span
+style='position:absolute;z-index:251672565;left:0px;margin-left:0px;margin-top:
+1948px;width:341px;height:308px'><img width=341 height=308
+src="index_files/image019.jpg"></span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoListBulletCxSpFirst style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>For input points (80,30) and (150,240)
+we get the result:</p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:.25in'><span
+style='font-size:12.0pt;line-height:107%'>ORIGINAL                                                                                                              TRANSFORMED</span></p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center'><img width=421
+height=421 id="Picture 30" src="index_files/image020.jpg">                                              <img
+width=419 height=419 id="Picture 29" src="index_files/image021.jpg"></p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>We see that the contrast is
+significantly improved after applying the function.</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpLast style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>10. Gray Level Slicing</span></i></p>
+
+<p class=MsoListBulletCxSpFirst style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>This refers to setting all pixel values
+to 0 except those in a given interval (low,high). </p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>This helps to isolate image parts based
+on gray values</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>For input points low=150, high=200 we
+get the result:</p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center'><span
+style='font-size:12.0pt;line-height:107%'>ORIGINAL                                                                                                  GRAY
+LEVEL (150, 200)<br>
+</span><img width=426 height=419 id="Picture 32" src="index_files/image022.jpg"><span
+style='font-size:12.0pt;line-height:107%'>                         </span><img
+width=429 height=421 id="Picture 31" src="index_files/image023.jpg"></p>
+
+<p class=MsoListBulletCxSpLast style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'><br>
+ This can isolate certain gray levels of the image and help in specific
+analysis of image.</p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>11. Bit Plane Slicing<br>
+<br>
+</span></i></p>
+
+<p class=MsoListBulletCxSpFirst style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>      Bit plane using bit k slicing
+refers to setting all pixels having the kth bit set to 255 and those with kth
+bit=0 to 0;<br>
+This separates the image into bit planes which may be combined to obtain
+original image.</p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:.25in'>Bit=
+7                                                                                                                     Bit
+= 4<br>
+<img width=370 height=363 id="Picture 33" src="index_files/image024.jpg">                                              <img
+width=370 height=363 id="Picture 34" src="index_files/image025.jpg"></p>
+
+<p class=MsoListBulletCxSpLast style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:.25in'>This can reveal the
+number of pixel values above a given threshold i.e. 2^bit. </p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>12. Histogram Equalization</span></i></p>
+
+<p class=MsoListBulletCxSpFirst style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>       Histogram equalization improves
+the contrast of the image using cumulative function and maps values so that
+pixel count is evenly distributed among all gray values.</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'><br>
+                                                                                                                                                                                                                                                ORIGINAL
+Image</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'><span style='position:absolute;
+z-index:251673589;left:0px;margin-left:1018px;margin-top:2789px;width:279px;
+height:279px'><img width=279 height=279 src="index_files/image026.jpg"></span>                                               
+ </p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:3.0in;text-indent:.5in'><img width=270
+height=86 id="Picture 38" src="index_files/image027.jpg"></p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:3.5in;text-indent:.5in'>Original Histogram</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:3.0in;text-indent:.5in'><img width=265
+height=79 id="Picture 1" src="index_files/image028.jpg"></p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:3.5in;text-indent:.5in'>Equalized Histogram</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:.25in'>OPENCV                                                                                                                MINE</p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center'><img width=350
+height=350 id="Picture 36" src="index_files/image029.jpg"><img width=351
+height=351 id="Picture 35" src="index_files/image030.jpg"></p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>RMSE= 11.5</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>We see that Equalization significantly
+improves contrast of the image</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpLast style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>13. Adaptive Histogram Equalization</span></i></p>
+
+<p class=MsoListBulletCxSpFirst align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'>This
+is same as Histogram Equalization except we divide the image into blocks and
+compute equalized histogram for each block separately and interpolate the final
+result for each pixel<br>
+<br>
+                         ORIGINAL<br>
+                           <img width=412 height=414 id="Picture 41"
+src="index_files/image031.jpg"></p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'>ADAPTIVE
+H. E.                                                                             SIMPLE
+H. E.</p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'><img
+width=398 height=400 id="Picture 39" src="index_files/image032.jpg"><img
+width=399 height=402 id="Picture 42" src="index_files/image033.jpg"></p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'><span
+lang=X-NONE style='font-size:0pt;line-height:107%;font-family:"Times New Roman","serif";
+color:black;background:black;layout-grid-mode:line'>&nbsp;</span></p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'><span
+lang=X-NONE style='font-size:0pt;line-height:107%;font-family:"Times New Roman","serif";
+color:black;background:black;layout-grid-mode:line'>&nbsp;</span></p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'><span
+lang=X-NONE style='font-size:0pt;line-height:107%;font-family:"Times New Roman","serif";
+color:black;background:black;layout-grid-mode:line'>&nbsp;</span></p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'><span
+lang=X-NONE style='font-size:0pt;line-height:107%;font-family:"Times New Roman","serif";
+color:black;background:black;layout-grid-mode:line'>&nbsp;</span></p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'><span
+lang=X-NONE style='font-size:0pt;line-height:107%;font-family:"Times New Roman","serif";
+color:black;background:black;layout-grid-mode:line'>&nbsp;</span></p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'><span
+lang=X-NONE style='font-size:0pt;line-height:107%;font-family:"Times New Roman","serif";
+color:black;background:black;layout-grid-mode:line'>&nbsp;</span></p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'><span
+lang=X-NONE style='font-size:0pt;line-height:107%;font-family:"Times New Roman","serif";
+color:black;background:black;layout-grid-mode:line'>&nbsp;</span></p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpLast style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>We can see that adaptive
+H.E. shows more details in areas where simple H.E. is very dark.<br>
+Compared with OpenCV ADE, the RMSE = 25</p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>14. Histogram Matching</span></i></p>
+
+<p class=MsoListBulletCxSpFirst align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'>In
+this, we have a initial image and a final image. We have to map the histogram
+of the initial to the final image.<br>
+           INITIAL                                                                                                                              FINAL<br>
+<img width=426 height=320 id="Picture 45" src="index_files/image034.jpg">                <img
+width=419 height=315 id="Picture 44" src="index_files/image035.png"></p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'><img
+width=273 height=81 id="Picture 47" src="index_files/image036.jpg">                      <img
+width=278 height=76 id="Picture 46" src="index_files/image037.jpg"></p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>                                                                                                                                                                                    Matched
+Image</p>
+
+<p class=MsoListBulletCxSpLast style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>                           
+                                                                                                              <img
+width=400 height=300 id="Picture 43" src="index_files/image038.jpg"> </p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><img width=271
+height=78 id="Picture 48" src="index_files/image039.jpg"></p>
+
+<p class=MsoListBullet style='margin-top:0in;margin-right:1.5in;margin-bottom:
+8.0pt;margin-left:1.5in'>We can see that the histogram of the image is similar
+to final histogram and the image has better contrast than before.</p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:4.0pt;
+margin-left:1.5in'><i><span style='font-size:16.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>15. Mean Filtering</span></i></p>
+
+<p class=MsoListBulletCxSpFirst align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'>This
+consists of simple spatial filtering matrix of 3x3 where each value is 1/9. This
+averages the value of pixel according to its neighbors. <br>
+             ORIGINAL                                                                                                        MEAN
+FILTERED<br>
+<img width=406 height=406 id="Picture 50" src="index_files/image040.jpg">                               <img
+width=405 height=405 id="Picture 49" src="index_files/image041.jpg"></p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>Comapred to OPENCV mean
+=&gt; RMSE= 6.31</p>
+
+<p class=MsoListBulletCxSpLast style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>16. Weighted Mean Filtering</span></i></p>
+
+<p class=MsoListBulletCxSpFirst style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>Same as previous but center
+has weight 4, with 4 neghborhood points having weight 2 and other have weight
+1.<br>
+                                                                                                                                      <img
+width=355 height=355 id="Picture 51" src="index_files/image042.jpg"></p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>Compared to OPENCV
+Gaussian Blue : RMSE = 6.1</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpLast style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>17. Median Filtering</span></i></p>
+
+<p class=MsoListBulletCxSpFirst style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>This sorts the points in
+3x3 neighborhood and takes the median of the sorted list.</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>               </p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'>ORIGINAL                                                                                                                     MEDIAN</p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'><img
+width=406 height=406 id="Picture 53" src="index_files/image043.jpg">                               <img
+width=402 height=402 id="Picture 52" src="index_files/image044.jpg"></p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>This reduces noise
+greatly as can be seen in the bottom right boxes in the image.</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>Comapred to OPENCV
+median : RMSE=8.3</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpLast style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>18. Sobel Filtering</span></i></p>
+
+<p class=MsoListBulletCxSpFirst style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>This uses two spatial
+filtering matrices to get gradients in x and y direction. Finally we get edges
+in the image.</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'>ORIGINAL                                                                                                                                    SOBEL</p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'><img
+width=406 height=406 id="Picture 55" src="index_files/image043.jpg">                               <img
+width=411 height=411 id="Picture 54" src="index_files/image045.jpg"></p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpLast style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>19. Laplacian Filtering</span></i></p>
+
+<p class=MsoListBulletCxSpFirst style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>By applying the
+Laplacian matrix, we can sharpen the image.</p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'>ORIGINAL                                                                                                                     SHARPENED</p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'><img
+width=405 height=405 id="Picture 57" src="index_files/image046.jpg">                                              <img
+width=403 height=403 id="Picture 56" src="index_files/image047.jpg"></p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>By calculating the
+difference in pixel values, we can increase intensity of edges to get sharp
+image.</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpLast style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>20. HighBoost Filtering</span></i></p>
+
+<p class=MsoListBulletCxSpFirst style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>This also gives
+sharpened image by subtracting the blurred image from original one.</p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>F(x,y) = f(x,y)+k*(
+f(x,y)-Fblur(x,y) )<br>
+The coefficient k is greater than one in this case.</p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'>ORIGINAL                                                                                                      SHARPENED
+with k=5</p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoListBulletCxSpMiddle align=center style='margin-top:0in;margin-right:
+1.5in;margin-bottom:8.0pt;margin-left:1.5in;text-align:center;text-indent:0in'><img
+width=330 height=432 id="Picture 59" src="index_files/image048.jpg">                                                 <img
+width=331 height=434 id="Picture 58" src="index_files/image049.jpg"></p>
+
+<p class=MsoListBulletCxSpMiddle style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>This results in lower
+but better sharpening than laplacian filter.</p>
+
+<p class=MsoListBulletCxSpLast style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:4.0pt;margin-left:1.5in;text-align:center'><i><span
+style='font-size:16.0pt;line-height:107%'>21. Unsharp Masking</span></i></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:8.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>Similar to
+HighBoost but with k=1. </span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-align:center'>F(x,y) = f(x,y)+k*(
+f(x,y)-Fblur(x,y) )</p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-align:center'><br>
+ORIGINAL                                                                                                                                    SHARPENED</p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:1.5in;
+margin-bottom:8.0pt;margin-left:1.5in;text-align:center'><img width=405
+height=405 id="Picture 61" src="index_files/image046.jpg"><span
+style='font-size:12.0pt;line-height:107%'>                                     <img
+width=403 height=403 id="Picture 60" src="index_files/image050.jpg"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:8.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'><br>
+<br>
+</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.5in;margin-bottom:8.0pt;
+margin-left:1.5in'><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>
