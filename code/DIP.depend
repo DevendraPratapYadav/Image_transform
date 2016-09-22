@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1472398177 source:/home/dh/Desktop/DIP/OPENCV/DIP/main.cpp
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<iostream>
+	<stdio.h>
+
