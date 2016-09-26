@@ -5,6 +5,7 @@ Numerous image transforms implemented in C++
 
 ###Compile code using:
 ```sh
+$ cd code
 $ cmake .
 $ make
 ```
