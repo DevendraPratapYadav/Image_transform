@@ -1,17 +1,17 @@
 # Image_transform
 Numerous image transforms implemented in C++
 
-##Please visit [HERE](https://devendrapratapyadav.github.io/Image_transform) for results and analysis of the transforms (with sample output images).
+## Please visit [HERE](https://devendrapratapyadav.github.io/Image_transform) for results and analysis of the transforms (with sample output images).
 
-###Compile code using:
+### Compile code using:
 ```sh
 $ cd code
 $ cmake .
 $ make
 ```
->Prerequisites: Cmake and GNU make.
+> Prerequisites: Cmake and GNU make.
 
-###Run using:
+### Run using:
 ```sh
 $ ./imgProc <filepath_of_image>
 ```
@@ -21,7 +21,7 @@ Rest program is menu based.
 
 
 
-###The following image enhancements can be done using the program.
+### The following image enhancements can be done using the program.
 1. Rotate
 2. Translate
 3. Scale
